@@ -170,6 +170,11 @@ _G.packer_plugins = {
     path = "/home/fireninja/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "/home/fireninja/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/fireninja/.local/share/nvim/site/pack/packer/start/telescope.nvim",
