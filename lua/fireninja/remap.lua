@@ -18,8 +18,6 @@ vim.api.nvim_set_keymap('n', '<C-k>', '<C-w><C-k>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-l>', '<C-w><C-l>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w><C-h>', { noremap = true })
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
